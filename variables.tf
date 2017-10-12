@@ -24,14 +24,8 @@ variable "jenkins_name" {
 variable "amis" {
   description = "Which AMI to spawn. Defaults to the Weave ECS AMIs: https://github.com/weaveworks/integrations/tree/master/aws/ecs."
   default = {
-    us-east-1 = "ami-49617b23"
-    us-west-1 = "ami-24057b44"
-    us-west-2 = "ami-3cac5c5c"
-    eu-west-1 = "ami-1025aa63"
-    eu-central-1 = "ami-e010f38f"
-    ap-northeast-1 = "ami-54d5cc3a"
-    ap-southeast-1 = "ami-664d9905"
-    ap-southeast-2 = "ami-c2e9c4a1"
+    us-east-1 = "ami-8c1be5f6"
+    us-west-1 = "ami-c998b6b2"
   }
 }
 
