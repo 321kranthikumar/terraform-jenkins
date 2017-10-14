@@ -8,7 +8,7 @@ data "terraform_remote_state" "tfstate" {
   backend = "s3"
 
   config {
-    bucket = "mycompany-terraform"
+    bucket = "mycompany-terraform-kk"
     key = "terraform/terraform.tfstate"
     region = "us-east-1"
   }
