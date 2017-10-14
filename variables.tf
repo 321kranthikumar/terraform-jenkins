@@ -39,6 +39,6 @@ variable "key_name" {
 }
 
 variable "s3_bucket" {
-  default = "mycompany-jenkins"
+  default = "mycompany-jenkins-kk"
   description = "S3 bucket where remote state and Jenkins data will be stored."
 }
